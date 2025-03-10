@@ -1,0 +1,161 @@
+#NEXUS
+
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=70;
+	TAXLABELS
+		Agelas_schmidti
+		Cymbaxinella_damicornis
+		Polymastia_invaginata
+		Tethya_wilhelma
+		Spheciospongia_vesparium
+		Cliona_varians
+		Prosuberites_sp
+		Pseudospongosorites_suberitoides
+		Halichondria_panicea
+		Isodyctia_sp
+		Latrunculia_apicalis
+		Iophon_unicorne
+		Tedania_anhelans
+		Kirkpatrickia_variolosa
+		Phorbas_areolatus
+		Crella_elegans
+		Crambe_crambe
+		Mycale_phyllophila
+		Mycale_lingua
+		Mycale_laevis
+		Mycale_tridens
+		Mycale_acerata
+		Chondrocladia_roberballardi
+		Phakellia_ventilabrum
+		Phakellia_robusta
+		Cymbastela_concentrica
+		Poecillastra_compressa
+		Stryphnus_fortis
+		Stelletta_normani
+		Geodia_phlegrai
+		Geodia_macandrewi
+		Geodia_parva
+		Geodia_hentscheli
+		Geodia_barretti
+		Geodia_atlantica
+		Craniella_infrequens
+		Scopalina_sp
+		Scopalina_ruetzleri
+		Spongilla_lacustris
+		Eunapius_fragilis
+		Ephydatia_muelleri
+		Lubomirskia_abietina
+		Lubomirskia_baicalensis
+		Baikalospongia_bacillifera
+		Haliclona_penicillata
+		Petrosia_ficiformis
+		Amphimedon_queenslandica
+		Vaceletia_sp
+		Spongia_officinalis
+		Ircinia_fasciculata
+		Dendrilla_antarctica
+		Halisarca_dujardini
+		Halisarca_caerulea
+		Chondrilla_caribensis
+		Aplysina_aerophoba
+		Vazella_pourtalesi
+		Sympagella_nux
+		Rossella_fibulata
+		Oscarella_pearsei
+		Corticium_candelabrum
+		Sycon_coactum
+		Sycon_ciliatum
+		Leucetta_giribeti
+		Clathrina_coriacea
+		Pleurobrachia_bachei
+		Bolinopsis_ashleyi
+		Lottia_gigantea
+		Homo_sapiens
+		Nematostella_vectensis
+		Aurelia_aurita
+	;
+END;
+
+
+BEGIN TREES;
+	Title 'Trees from "PoriSpi_ILN.tre"';
+	ID 018ad5c628555;
+	LINK Taxa = Taxa;
+	TRANSLATE
+[0] 		1 Agelas_schmidti,
+[1] 		2 Cymbaxinella_damicornis,
+[2] 		3 Polymastia_invaginata,
+[3] 		4 Tethya_wilhelma,
+[4] 		5 Spheciospongia_vesparium,
+[5] 		6 Cliona_varians,
+[6] 		7 Prosuberites_sp,
+[7] 		8 Pseudospongosorites_suberitoides,
+[8] 		9 Halichondria_panicea,
+[9] 		10 Isodyctia_sp,
+[10] 		11 Latrunculia_apicalis,
+[11] 		12 Iophon_unicorne,
+[12] 		13 Tedania_anhelans,
+[13] 		14 Kirkpatrickia_variolosa,
+[14] 		15 Phorbas_areolatus,
+[15] 		16 Crella_elegans,
+[16] 		17 Crambe_crambe,
+[17] 		18 Mycale_phyllophila,
+[18] 		19 Mycale_lingua,
+[19] 		20 Mycale_laevis,
+[20] 		21 Mycale_tridens,
+[21] 		22 Mycale_acerata,
+[22] 		23 Chondrocladia_roberballardi,
+[23] 		24 Phakellia_ventilabrum,
+[24] 		25 Phakellia_robusta,
+[25] 		26 Cymbastela_concentrica,
+[26] 		27 Poecillastra_compressa,
+[27] 		28 Stryphnus_fortis,
+[28] 		29 Stelletta_normani,
+[29] 		30 Geodia_phlegrai,
+[30] 		31 Geodia_macandrewi,
+[31] 		32 Geodia_parva,
+[32] 		33 Geodia_hentscheli,
+[33] 		34 Geodia_barretti,
+[34] 		35 Geodia_atlantica,
+[35] 		36 Craniella_infrequens,
+[36] 		37 Scopalina_sp,
+[37] 		38 Scopalina_ruetzleri,
+[38] 		39 Spongilla_lacustris,
+[39] 		40 Eunapius_fragilis,
+[40] 		41 Ephydatia_muelleri,
+[41] 		42 Lubomirskia_abietina,
+[42] 		43 Lubomirskia_baicalensis,
+[43] 		44 Baikalospongia_bacillifera,
+[44] 		45 Haliclona_penicillata,
+[45] 		46 Petrosia_ficiformis,
+[46] 		47 Amphimedon_queenslandica,
+[47] 		48 Vaceletia_sp,
+[48] 		49 Spongia_officinalis,
+[49] 		50 Ircinia_fasciculata,
+[50] 		51 Dendrilla_antarctica,
+[51] 		52 Halisarca_dujardini,
+[52] 		53 Halisarca_caerulea,
+[53] 		54 Chondrilla_caribensis,
+[54] 		55 Aplysina_aerophoba,
+[55] 		56 Vazella_pourtalesi,
+[56] 		57 Sympagella_nux,
+[57] 		58 Rossella_fibulata,
+[58] 		59 Oscarella_pearsei,
+[59] 		60 Corticium_candelabrum,
+[60] 		61 Sycon_coactum,
+[61] 		62 Sycon_ciliatum,
+[62] 		63 Leucetta_giribeti,
+[63] 		64 Clathrina_coriacea,
+[64] 		65 Pleurobrachia_bachei,
+[65] 		66 Bolinopsis_ashleyi,
+[66] 		67 Lottia_gigantea,
+[67] 		68 Homo_sapiens,
+[68] 		69 Nematostella_vectensis,
+[69] 		70 Aurelia_aurita;
+	TREE '1+' = ((((((((((1:1.20702,2:1.20702):1.846009,(3:2.923781,((4:2.287896,(5:0.459633,6:0.459633):1.828263):0.422151,((7:1.733527,(8:1.088116,9:1.088116):0.645411):0.835606,(((10:1.670811,(11:1.359316,(12:1.091633,(13:0.938936,(14:0.700241,(15:0.49089,16:0.49089):0.209351):0.238695):0.152697):0.267683):0.311495):0.161995,17:1.832806):0.220132,((18:0.888035,((19:0.581795,20:0.581795):0.132427,(21:0.053579,22:0.053579):0.660642):0.173813):0.611941,23:1.499976):0.552963):0.516195):0.140913):0.213735):0.129248):0.272063,(24:0.682188,(25:0.3413,26:0.3413):0.340888):2.642904):0.239414,((27:1.999606,((28:0.283662,29:0.283662):1.383341,(30:1.032526,((31:0.512629,((32:0.01788,33:0.01788):0.236902,34:0.254782):0.257847):0.331074,35:0.843703):0.188822):0.634478):0.332603):0.496226,36:2.495833):1.068674):0.308045,((37:0.808119,38:0.808119):2.500991,((39:0.700251,40:0.700251):0.17685,(41:0.44267,(42:0.05292,(43:0.034148,44:0.034148):0.018772):0.389749):0.434431):2.43201):0.56344):0.389493,(45:2.765713,(46:1.98845,47:1.98845):0.777263):1.496331):0.656208,(((48:0.787922,(49:0.507492,50:0.507492):0.28043):0.826217,51:1.614138):2.708583,(((52:0.88413,53:0.88413):0.297176,54:1.181307):1.036355,55:2.217662):2.10506):0.595531):0.692665,((56:4.331172,57:4.331172):0.14615,58:4.477322):1.133595):0.417288,((59:3.2435,60:3.2435):2.081983,((61:0.978036,62:0.978036):1.736072,(63:1.522463,64:1.522463):1.191645):2.611375):0.702723):0.057615,((65:1.259611,66:1.259611):4.462374,((67:5.334304,68:5.334304):0.250933,(69:5.334923,70:5.334923):0.250314):0.136748):0.363836)[% ] [%unrooted = on ];
+END;
+
+
+

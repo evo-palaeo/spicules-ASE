@@ -1,0 +1,87 @@
+#NEXUS
+
+BEGIN DATA;
+	DIMENSIONS NTAX=78 NCHAR=6;
+	FORMAT DATATYPE = STANDARD RESPECTCASE GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4 5 6 7 8";
+	MATRIX
+	'Phorbas_areolatus'               122323
+	Helicolocellus                    000000
+	'Geodia_parva'                    122323
+	'Bolinopsis_ashleyi'              000000
+	'Lottia_gigantea'                 000000
+	'Amphimedon_queenslandica'        122323
+	Charnia                           000000
+	'Geodia_phlegrai'                 122323
+	'Scopalina_sp'                    122323
+	'Crambe_crambe'                   122323
+	Protospongia                      34(4 5)(5 6)(5 6 7)(6 7 8)
+	'Chondrocladia_roberballardi'     122323
+	'Sycon_ciliatum'                  233445
+	'Lubomirskia_abietina'            122323
+	'Vazella_pourtalesi'              121212
+	'Cymbastela_concentrica'          122323
+	'Phakellia_ventilabrum'           122323
+	'Pleurobrachia_bachei'            000000
+	'Geodia_atlantica'                122323
+	Diagoniella                       (1 2 3)(1 2 3 4)(1 2 3 4 5)(2 3 4 5 6)(1 2 3 4 5 6 7)(2 3 4 5 6 7 8)
+	'Crella_elegans'                  122323
+	'Kirkpatrickia_variolosa'         122323
+	'Isodyctia_sp'                    122323
+	'Mycale_lingua'                   122323
+	'Mycale_tridens'                  122323
+	'Oscarella_pearsei'               000000
+	'Mycale_phyllophila'              122323
+	'Nematostella_vectensis'          000000
+	'Mycale_laevis'                   122323
+	'Scopalina_ruetzleri'             122323
+	'Halisarca_caerulea'              000000
+	'Haliclona_penicillata'           122323
+	'Halichondria_panicea'            122323
+	Cyathophycus                      12(1 2)(2 3)(1 2 3)(2 3 4)
+	'Aurelia_aurita'                  000000
+	'Tedania_anhelans'                122323
+	'Geodia_macandrewi'               122323
+	'Sycon_coactum'                   233445
+	'Vaceletia_sp'                    233445
+	'Sympagella_nux'                  121212
+	'Corticium_candelabrum'           12(1 2)(2 3)34
+	'Aplysina_aerophoba'              000000
+	'Latrunculia_apicalis'            122323
+	'Leucetta_giribeti'               233445
+	'Cymbaxinella_damicornis'         122323
+	'Stryphnus_fortis'                122323
+	'Spongilla_lacustris'             122323
+	'Spongia_officinalis'             000000
+	'Spheciospongia_vesparium'        122323
+	'Stelletta_normani'               122323
+	'Baikalospongia_bacillifera'      122323
+	'Chondrilla_caribensis'           12(1 2)(2 3)(1 2 3)(2 3 4)
+	'Halisarca_dujardini'             000000
+	'Phakellia_robusta'               122323
+	'Petrosia_ficiformis'             122323
+	Vauxia                            12(1 2)(2 3)(1 2 3)(2 3 4)
+	'Agelas_schmidti'                 122323
+	'Lubomirskia_baicalensis'         122323
+	'Poecillastra_compressa'          122323
+	'Pseudospongosorites_suberitoides'  122323
+	'Dendrilla_antarctica'            000000
+	'Rossella_fibulata'               121212
+	Eiffelia                          34(4 5)(5 6)(5 6 7)(6 7 8)
+	'Iophon_unicorne'                 122323
+	'Homo_sapiens'                    000000
+	'Prosuberites_sp'                 122323
+	'Geodia_hentscheli'               122323
+	'Ircinia_fasciculata'             000000
+	'Mycale_acerata'                  122323
+	Minitaspongia                     (0 1 2 3)(1 2 3 4)(1 2 3 4 5)(1 2 3 4 5 6)(0 1 2 3 4 5 6 7)(1 2 3 4 5 6 7 8)
+	'Cliona_varians'                  122323
+	'Clathrina_coriacea'              233445
+	'Eunapius_fragilis'               122323
+	'Tethya_wilhelma'                 122323
+	'Polymastia_invaginata'           122323
+	'Geodia_barretti'                 122323
+	'Craniella_infrequens'            122323
+	'Ephydatia_muelleri'              122323
+
+;
+END;
